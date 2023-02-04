@@ -21,6 +21,7 @@
   "homepage": "https://github.com/jimmyomont/jimmyomont.github.io#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
+    "gh-pages": "^5.0.0",
     "parcel": "^2.8.3",
     "reset-css": "^5.0.1"
   }
