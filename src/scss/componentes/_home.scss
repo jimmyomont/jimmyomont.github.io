@@ -1,0 +1,22 @@
+.home {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(73, 137, 197, 0.61);
+    position:fixed;
+    &_img {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    &_desc {
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+        background-color: rgba(250, 235, 215, 0.349);
+        
+    }
+}    
+

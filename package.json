@@ -1,0 +1,27 @@
+{
+  "name": "jimmyomont.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyomont/jimmyomont.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmyomont/jimmyomont.github.io/issues"
+  },
+  "homepage": "https://github.com/jimmyomont/jimmyomont.github.io#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "reset-css": "^5.0.1"
+  }
+}
