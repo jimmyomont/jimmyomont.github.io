@@ -3,23 +3,25 @@
     color: azure;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
-    margin: 2rem;
+    margin: 1rem;
     background-color: rgba(34, 36, 37, 0.692);
     border-radius: 15px;
     box-shadow: 4px 5px 15px 2px rgba(0, 0, 0, 0.562) ;
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 1rem;
 
     &_intitule {
+        width: 96%;
+        text-align: center;
         color: azure;
         display: block;
         margin: auto;
-        margin-top: 2rem;
-        padding: 2rem;
+        padding: 1rem;
         border: 1px solid rgb(0, 0, 0);
         background-color: rgba(34, 36, 37, 0.692);
         border-radius: 15px;
         box-shadow: 4px 5px 15px 2px rgba(0, 0, 0, 0.562) ;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
+
 }
