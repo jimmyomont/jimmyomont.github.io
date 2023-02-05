@@ -1,8 +1,9 @@
 .home {
+    color: azure;
     width: 20%;
     height: 100%;
     position: fixed;
-    background-color: rgba(73, 137, 197, 0.61);
+    background-color: rgba(34, 36, 37, 0.692);
     position:fixed;
     &_img {
         display: block;
@@ -15,7 +16,7 @@
         margin: 1rem;
         padding: 1rem;
         font-size: 1.2rem;
-        background-color: rgba(250, 235, 215, 0.349);
+        background-color: rgba(225, 231, 235, 0.151);
         
     }
 }    
