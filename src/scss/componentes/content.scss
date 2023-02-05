@@ -1,10 +1,10 @@
 .content{
     margin-left: 20%;
     top: 10rem;
+    margin-block-start: -3em;
 
     &_title {
         background-color: rgba(201, 218, 228, 0.925);
-        padding: 1rem;
         position: sticky;
         top: 0;
         text-align: center;
