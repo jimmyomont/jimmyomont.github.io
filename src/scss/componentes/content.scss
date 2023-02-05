@@ -15,4 +15,65 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    &_neon {
+            color: #eaecec;
+            text-shadow:
+                0 0 7px rgb(0, 89, 255),
+                0 0 10px rgb(0, 89, 255),
+                0 0 42px rgb(3, 211, 248),
+                0 0 77px rgb(3, 211, 248),
+                0 0 100px rgb(3, 211, 248);
+            animation: neon 1s infinite linear;
+        }
+        
+        @keyframes neon {
+            0% {
+                text-shadow:
+                0 0 7px rgb(0, 89, 255),
+                0 0 10px rgb(0, 89, 255),
+                0 0 42px rgb(3, 211, 248),
+                0 0 77px rgb(3, 211, 248),
+                0 0 100px rgb(3, 211, 248);
+            }
+        
+            50% {
+                text-shadow:
+                0 0 7px rgb(0, 89, 255),
+                0 0 10px rgb(0, 89, 255),
+                0 0 42px rgb(3, 211, 248),
+                0 0 77px rgb(3, 211, 248),
+                0 0 100px rgb(3, 211, 248);
+            }
+        }
+        
+        .effetneon2 {
+            color: rgb(255, 255, 255);
+            text-shadow:
+                0 0 7px rgb(0, 47, 255),
+                0 0 10px rgb(0, 47, 255),
+                0 0 42px rgb(4, 0, 255),
+                0 0 77px rgb(4, 0, 255),
+                0 0 100px rgb(4, 0, 255);
+            animation: neon2 1s infinite linear;
+        }
+        
+        @keyframes neon2 {
+            0% {
+                text-shadow:
+                    0 0 7px rgb(0, 47, 255),
+                    0 0 10px rgb(0, 47, 255),
+                    0 0 42px rgb(4, 0, 255),
+                    0 0 77px rgb(4, 0, 255),
+                    0 0 100px rgb(4, 0, 255);
+            }
+        
+            50% {
+                text-shadow:
+                    0 0 7px rgb(0, 47, 255),
+                    0 0 10px rgb(0, 47, 255),
+                    0 0 42px rgb(4, 0, 255),
+                    0 0 77px rgb(4, 0, 255),
+                    0 0 100px rgb(4, 0, 255);
+        }
+    }
     }
