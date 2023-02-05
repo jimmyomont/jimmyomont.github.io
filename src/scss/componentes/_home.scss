@@ -20,5 +20,42 @@
         border-radius: 15px;
         
     }
-}    
 
+    &_btn {
+        border-radius: 1rem;
+        background-color: rgb(20, 18, 18);
+        padding: 1em;
+    }
+    &_lien {
+        color:rgb(255, 255, 255);
+        font-size: 1.5rem;
+        text-shadow:
+            0 0 7px rgb(0, 89, 255),
+            0 0 10px rgb(0, 89, 255),
+            0 0 42px rgb(3, 211, 248),
+            0 0 77px rgb(3, 211, 248),
+            0 0 100px rgb(3, 211, 248);
+        animation: neon 1s infinite linear;
+    }
+    
+    @keyframes lien {        
+        0% {
+            text-shadow:
+            0 0 7px rgb(0, 89, 255),
+            0 0 10px rgb(0, 89, 255),
+            0 0 42px rgb(26, 176, 202),
+            0 0 77px rgb(26, 176, 202),
+            0 0 100px rgb(26, 176, 202);
+        }
+    
+        50% {
+            text-shadow:
+            0 0 7px rgb(0, 89, 255),
+            0 0 10px rgb(0, 89, 255),
+            0 0 42px rgb(3, 211, 248),
+            0 0 77px rgb(3, 211, 248),
+            0 0 100px rgb(3, 211, 248);
+        }
+
+    }
+}

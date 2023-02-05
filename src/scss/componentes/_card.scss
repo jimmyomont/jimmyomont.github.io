@@ -1,10 +1,12 @@
 .card {
     // max-width: 50%;
-    color: azure;
+    color:aliceblue;
+    font-weight: bold;
+    text-shadow: rgb(0, 0, 0) 10px 5px 20px;
     width: 100%;
     border: 1px solid rgb(0, 0, 0);
     margin: 1rem;
-    background-color: rgba(34, 36, 37, 0.692);
+    background-color: rgba(5, 92, 136, 0.5);
     border-radius: 15px;
     box-shadow: 4px 5px 15px 2px rgba(0, 0, 0, 0.562) ;
     font-size: 1.5rem;
