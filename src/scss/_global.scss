@@ -7,14 +7,14 @@ Body {
 
 // .scrollhaut  : class créée pour intégrer les propiété de scroll avec comme point de départ le Body
 .scrollhaut {
-    background-image: url(/src/img/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-image: url(/src/img/wallpaperflare.com_wallpaper\ \(1\).jpg?as=webp);
     background-size: cover;
     background-attachment: fixed;
     transition: background-color .3s;
 }
 
 .red {
-    background-image: url(/src/img/wallpaperflare.com_wallpaper\ \(3\).jpg);
+    background-image: url(/src/img/wallpaperflare.com_wallpaper\ \(3\).jpg?as=webp);
     background-size: cover;
     background-attachment: fixed;
     transition: background-color .3s;
