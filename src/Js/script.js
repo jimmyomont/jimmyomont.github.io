@@ -14,9 +14,9 @@ window.addEventListener('scroll', () => {
         setClass("scrollhaut")
 
     }
-    else if (scroll < 1000) {
-        setClass("scrollmiddle")
-    }
+    // else if (scroll < 1000) {
+    //     setClass("scrollmiddle")
+    // }
 
     else {
         setClass("red")

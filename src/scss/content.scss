@@ -1,0 +1,49 @@
+.content{
+    margin-left: 20%;
+    top: 10rem;
+    margin-block-start: -3em;
+
+    &_title {
+        background-color: rgba(39, 36, 36, 0.788);
+        position: sticky;
+        top: 0;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    &_flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &_neon {
+            color:rgb(255, 255, 255);
+            text-shadow:
+                0 0 7px rgb(0, 89, 255),
+                0 0 10px rgb(0, 89, 255),
+                0 0 42px rgb(3, 211, 248),
+                0 0 77px rgb(3, 211, 248),
+                0 0 100px rgb(3, 211, 248);
+            animation: neon 1s infinite linear;
+        }
+        
+        @keyframes neon {
+            0% {
+                text-shadow:
+                0 0 7px rgb(0, 89, 255),
+                0 0 10px rgb(0, 89, 255),
+                0 0 42px rgb(26, 176, 202),
+                0 0 77px rgb(26, 176, 202),
+                0 0 100px rgb(26, 176, 202);
+            }
+        
+            50% {
+                text-shadow:
+                0 0 7px rgb(0, 89, 255),
+                0 0 10px rgb(0, 89, 255),
+                0 0 42px rgb(3, 211, 248),
+                0 0 77px rgb(3, 211, 248),
+                0 0 100px rgb(3, 211, 248);
+            }
+        }
+        
+    }
