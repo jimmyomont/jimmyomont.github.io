@@ -8,7 +8,8 @@
     },
     "devDependencies": {
         "@parcel/transformer-sass": "^2.8.3",
-        "parcel": "^2.8.3"
+        "parcel": "^2.8.3",
+        "sharp": "^0.31.3"
     },
     "dependencies": {
         "feather-icons": "^4.29.0",

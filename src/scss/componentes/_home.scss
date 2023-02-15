@@ -12,14 +12,14 @@
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    &_desc {
-        margin: 1rem;
-        padding: 1rem;
-        font-size: 1.2rem;
-        background-color: rgba(225, 231, 235, 0.151);
-        border-radius: 15px;
+    // &_desc {
+    //     margin: 1rem;
+    //     padding: 1rem;
+    //     font-size: 1.2rem;
+    //     background-color: rgba(225, 231, 235, 0.151);
+    //     border-radius: 15px;
         
-    }
+    // }
 
     &_btn {
         border-radius: 1rem;
@@ -58,4 +58,73 @@
         }
 
     }
+}
+
+// Card backrgound color nav
+@mixin backlight($x, $y, $spread, $size, $colorA, $colorB, $duration) {
+	&:after {
+		position: absolute;
+		content: "";
+		top: $y;
+		left: $x;
+
+		right: 0;
+		z-index: -1;
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+		transform: scale($size);
+		-webkit-filter: blur($spread);
+		-moz-filter: blur($spread);
+		-ms-filter: blur($spread);
+		filter: blur($spread);
+		background: linear-gradient(270deg, $colorA, $colorB);
+		background-size: 200% 200%;
+		animation: animateGlow $duration ease infinite;
+
+		@keyframes animateGlow {
+			0% {
+				background-position: 0% 50%;
+			}
+
+			50% {
+				background-position: 100% 50%;
+			}
+
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+	}
+}
+.home_desc {
+	position: relative;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+        background-color: rgba(69, 72, 73, 0.384);
+        border-radius: 15px;
+	// width: 30vw;
+	// height: 30vw;
+	// line-height: 30vw;
+	// text-align: center;
+	color: #252b37;
+	background-color: #151823b6;
+	animation: textColor 10s ease infinite;
+	border-radius: 15px;
+	@include backlight(0, 5vw, 5vw, 0.75, #0fffc1, #7e0fff, 10s);
+
+	@keyframes textColor {
+		0% {
+			color: #7e0fff;
+		}
+
+		50% {
+			color: #0fffc1;
+		}
+
+		100% {
+			color: #7e0fff;
+		}
+	}
 }
