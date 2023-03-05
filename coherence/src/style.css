@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'kirby';
-	src: url('/kirby-classic.ttf') format('truetype')
+	src: url('./kirby-classic.ttf') format('truetype')
 }
 
 
