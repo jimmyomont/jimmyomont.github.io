@@ -43,6 +43,7 @@ const btnClose = document.querySelector('.btnClose');
 
 //Ecoute la bouton close 
 btnClose.addEventListener('click', () => {
+    window.history.back()
     //je  cache le main (l animation)
     main.classList.add('hidden');
     //je fais apparaitre le header (menu principal)
@@ -75,7 +76,7 @@ const select = document.querySelector("#compteur");
             //demarre si appuye sur une touche 
             window.addEventListener('keydown', () => {
             //j'envois la valeur du 'temp' si case 1 séléctionné 
-            temps = 60;            location.reload();
+            temps = 60;
             // renvoi les valeur a la fontcion miminuerTimer
             diminuerTimer(selecTime )})
             // if (play musique si btn son active)
