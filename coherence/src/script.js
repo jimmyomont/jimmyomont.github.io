@@ -9,13 +9,16 @@ console.log(audioOn);
 //variable du btn off
 const audioOff = document.getElementById('iconOff');
 console.log(audioOff);
-
+// variable audio 
+const audio = document.getElementById('audioPlayer');
 //ecoute le btn on 
 audioOn.addEventListener('click', () => {
     //faire disparaitre le logo on 
     audioOn.classList.add('hidden');
     //fait apparaitre le logo off 
     audioOff.classList.remove('hidden');
+    //lancer la piuste audio 
+    audio.play(); 
 })
 //ecoute le bouton off
 audioOff.addEventListener('click', () => {
@@ -23,7 +26,12 @@ audioOff.addEventListener('click', () => {
     audioOff.classList.add('hidden');
     //faire disparaitre le logo off 
     audioOn.classList.remove('hidden');
+    //mettre la udio en pause
+    audio.pause();
+    //remise à zero de l audio 
+    audio.currentTime = 0;
 })
+//creer une fonction qui play une music 
 
 //--------------------hidden au clic commencer --------------------------
 // variable du main et header 
@@ -43,7 +51,7 @@ const btnClose = document.querySelector('.btnClose');
 
 //Ecoute la bouton close 
 btnClose.addEventListener('click', () => {
-    window.history.back()
+    location.reload(); 
     //je  cache le main (l animation)
     main.classList.add('hidden');
     //je fais apparaitre le header (menu principal)
@@ -98,10 +106,9 @@ const select = document.querySelector("#compteur");
             diminuerTimer(selecTime)
             break;
         default:
-            window.alert('veuillez choisir une durée')
+            window.alert('veuillez choisir une durée'); 
             break;
     }}
-    else {timerElement.textContent = "test" }
 })
 
 //--------------------------------Timer--------------------------------
@@ -137,3 +144,8 @@ const timerElement = document.getElementById('timer');
     temps = temps <= 0 ? 0 : temps - 1;  
 
     },1000 ); }
+
+    //---------------------------temps d animation ------------------------------------
+
+// selection de la div .style.animation = 10s linear  infinite  alternate  bouche
+// localStorage.reload

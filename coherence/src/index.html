@@ -11,8 +11,14 @@
 <body>
   <header id="header">
 <h1>Ma coherence cardiaque</h1>
-<button class="btnAudio btn" id="iconOn"><img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-sound-mobile-app-development-flaticons-lineal-color-flat-icons-3.png"/></button>
-<button class="btnAudio hidden btn" id="iconOff"><img src="https://img.icons8.com/arcade/64/null/no-audio.png"/></button>
+
+  <audio class="hidden" autoplay = "autoplay" controls="controls" id="audioPlayer">
+    <source src = "/Abundance.mp3" />
+    <p> Your browser doesn't support the audio tag </p> 
+  </audio>
+
+<button class="btnAudio hidden btn" id="iconOn"><img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-sound-mobile-app-development-flaticons-lineal-color-flat-icons-3.png"/></button>
+<button class="btnAudio  btn" id="iconOff"><img src="https://img.icons8.com/arcade/64/null/no-audio.png"/></button>
     <section>
       <article>    
           <label for="compteur">Temps :</label>
