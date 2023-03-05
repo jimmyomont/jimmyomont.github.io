@@ -25,7 +25,7 @@
 - [ ] JAMSTACK
 ---
 * Avant :
-- [x]HTML
+- [x] HTML
 - [x] CSS
 - [x] JAVASCRIPT
 - [x] SASS
