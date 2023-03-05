@@ -1,6 +1,6 @@
 #  Bienvenue sur mon profil GitHub DEV (futur sénior) 🐈‍⬛
 
-# Ma [Gihub-page](https://github.com/jimmyomont)
+# Ma [Gihub-page](https://jimmyomont.github.io/)
 
 ##  En cours de Titre Professionnel de Formation Développement Web et Accessibilité 👨‍💻 Chez **O'CLOCK** ⏰
 ---
