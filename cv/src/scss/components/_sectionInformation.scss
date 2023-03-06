@@ -1,0 +1,27 @@
+.information {
+    width: 35%;
+    padding: 1.5rem;
+    padding-top: 0.5;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    @media print {
+        color: black;
+    }
+
+    &__style {
+        font-size: 1.1em;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    &__list{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.smallDesc {
+    font-size: 0.8em;
+}
+
