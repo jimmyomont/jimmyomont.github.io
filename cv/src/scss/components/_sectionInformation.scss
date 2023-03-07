@@ -1,10 +1,14 @@
 .information {
+
     width: 35%;
     padding: 1.5rem;
     padding-top: 0.5;
     background-color: rgb(59, 59, 59);
     color: white;
     @media print {
+        font-size: 1.1em;
+        padding-top: 2rem;
+        border: 1px solid black;
         color: black;
     }
 
@@ -14,14 +18,24 @@
         margin-top: 2rem;
     }
 
-    &__list{
+    &__liste{
         margin-left: 2rem;
         margin-bottom: 1rem;
     }
 
+    &__qrCode {
+        display: none;
+        @media print {
+            display: block;
+            text-align: end;
+            margin-top: 5rem;
+            margin-right: 2rem;
+        }
+    }
 }
 
 .smallDesc {
     font-size: 0.8em;
 }
+
 

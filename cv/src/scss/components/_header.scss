@@ -4,6 +4,7 @@
     text-align: center;
     color: rgb(59, 59, 59);
     @media print {
+        border: 1px solid black;
         padding: 0;
     }
 }

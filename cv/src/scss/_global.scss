@@ -1,7 +1,5 @@
 .column {
     display: flex;
-    justify-content: space-between;
-
 }
 
 body {
@@ -69,7 +67,6 @@ a {
 }
 
 .qrc {
-
     @media print {
         width: 17%;
     }

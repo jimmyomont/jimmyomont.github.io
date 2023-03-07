@@ -1,14 +1,5 @@
-xlenjoliveurbe {
-    border-radius: 3rem;
-    box-shadow: 5px 5px 10px #101010, -3px -3px 6px #404040;
-    background: linear-gradient(145deg, #2b2b2b, #242424);
-    display: flex;
-    height: 6rem; 
-    width: 6rem; 
-    margin: auto;
-  }
   
-  .xlenjoliveurbi {
+  .boutonPrint {
     justify-content: center;
     border-radius: 2.75rem; 
     align-items: center;
@@ -18,9 +9,12 @@ xlenjoliveurbe {
     margin: auto;
     height: 5.5rem; 
     width: 5.5rem; 
+    @media print {
+      display: none;
+    }
   }
   
-  .xlbouton {
+  .effet {
     justify-content: center;
     text-transform: uppercase;
     align-content: center;
@@ -36,12 +30,19 @@ xlenjoliveurbe {
     color: rgb(252, 122, 1);
   }
   
-  .xlbouton:hover {
+  .effet:hover {
     text-shadow: 0 0 5px #16161600;
     box-shadow: inset 6px 6px 12px #0a0a0a, inset -3px -3px 6px #262626;
     transition: box-shadow 0.5s ease-in-out, color 2s, text-shadow 0.5s 0.25s;
     opacity: 0.8;
     cursor: pointer;
     color: rgb(54, 38, 23);
+  }
+
+  .btnMarge {
+    margin-top: 5rem;
+    @media print {
+      display: none;
+    }
   }
   

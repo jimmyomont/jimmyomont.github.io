@@ -137,7 +137,7 @@ body {
   background: #E693A1;
 }
 
-label , h1{
+h2 , h1, select{
   font-family: "kirby", sans-serif;
   text-shadow: 1px 5px 5px  #e45f80;
   color: #e4bd12;
@@ -146,8 +146,6 @@ label , h1{
   display: flex;
   margin: 2rem;
   font-weight: bold;
-  cursor: pointer;
-  transition: 0.5s ease-in-out;
   text-align: center;
 }
 /* Stylisation du bouton */
@@ -168,23 +166,14 @@ margin-top: 20px; /* Définition de la marge en haut du bouton */
 outline: none;
 border: none; /* Suppression de la bordure */
 border-radius: 5px; /* Arrondissement des coins */
-transition: 0.2s ease-in; /* Animation de transition pour une interaction utilisateur plus agréable */
 cursor: pointer;
 }
 
 /* Effet de survol pour le bouton */
 .btn:hover {
-background: #dd8198; /* Changement de couleur de fond lors du survol  avec une couleur plus clair*/
+  background: #dd8198; /* Changement de couleur de fond lors du survol  avec une couleur plus clair*/
 }
 
-select {
-  font-size: 1.5em;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  background-color:#dd8198;
-}
 
 
 /* timer */
@@ -224,10 +213,10 @@ select {
 }
 
 .close {
-
   display: flex;
   justify-content:end;
 }
+
 .btnClose {
   cursor: pointer;
   justify-content: center; 
@@ -236,13 +225,18 @@ select {
   border: none;
 }
 
+
 .bouche {
   display: flex;
   justify-content: space-around;
   padding: 0rem;
 }
-
 select {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color:#dd8198;
   border-radius: 4rem ;
   padding: 1rem;
   border: solid 3px #dd8198; 
@@ -251,5 +245,6 @@ select {
 
 select:hover {
     border: solid 3px #e45f80; 
-    background: #dd8198
+    background: #dd8198;
 }
+

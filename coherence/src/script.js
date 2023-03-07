@@ -17,7 +17,7 @@ audioOn.addEventListener('click', () => {
     audioOn.classList.add('hidden');
     //fait apparaitre le logo off 
     audioOff.classList.remove('hidden');
-    //lancer la piuste audio 
+    //lancer la piste audio 
     audio.play(); 
 })
 //ecoute le bouton off
@@ -26,10 +26,10 @@ audioOff.addEventListener('click', () => {
     audioOff.classList.add('hidden');
     //faire disparaitre le logo off 
     audioOn.classList.remove('hidden');
-    //mettre la udio en pause
+    //mettre l audio en pause
     audio.pause();
     //remise à zero de l audio 
-    audio.currentTime = 0;
+    // audio.currentTime = 0;
 })
 //creer une fonction qui play une music 
 
@@ -43,6 +43,7 @@ start.addEventListener('click', () => {
     header.classList.add('hidden');
     //je fais apparaitre le main (l animation)
     main.classList.remove('hidden');
+
 })
 
 //------------------------btn close-------------------------------------
@@ -65,11 +66,10 @@ btnClose.addEventListener('click', () => {
 const select = document.querySelector("#compteur"); 
 
 //ecouter l element bouton start
-
+let id = null; 
     start.addEventListener('click', () => {
     //peut aussi s appeler comme ceci :
         // start.onclick = ()=>{
-
     // definir la value du selecteur
     let selecTime = select.value;  
     //envois les informations de timer a partir du moment ou l animation apparaît 
@@ -88,6 +88,7 @@ const select = document.querySelector("#compteur");
             // renvoi les valeur a la fontcion miminuerTimer
             diminuerTimer(selecTime )})
             // if (play musique si btn son active)
+
             break;
         case "2":
             temps = 120;
@@ -110,7 +111,6 @@ const select = document.querySelector("#compteur");
             break;
     }}
 })
-
 //--------------------------------Timer--------------------------------
 
 //https://www.commentcoder.com/timer-javascript/
@@ -118,11 +118,11 @@ const select = document.querySelector("#compteur");
 // definir la base de depart du timer (test)
 // le temps = a la value de mon select
 let temps = 60;
-
 //definir la base de depart du timer en ciblant les elements d affichage et ajout de ce timer
 const timerElement = document.getElementById('timer'); 
 //fonction pour diminuer l affichage de -1 par -1
     function diminuerTimer() {
+
         // diminuer le timer par interval de 1 seconde
         setInterval(() =>{
     // definir les minutes et les seconde
