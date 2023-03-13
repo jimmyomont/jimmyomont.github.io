@@ -1,7 +1,7 @@
 # Bienvenue sur mon profil GitHub DEV (futur sénior)  🐈‍⬛
 
 # Ma [Gihub-page](https://jimmyomont.github.io/)
-# Mon [CV](https://cv-omont-jimmy-a03b45keq-jimmyomont.vercel.app/)
+# Mon [CV](https://cv-omont-jimmy.vercel.app/)
 ---
 # mes projets en cours :
 # [Cohérence cardiaque "Kirby"](https://coherence-cardiaque-nu.vercel.app/#)
