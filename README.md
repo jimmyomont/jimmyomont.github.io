@@ -1,6 +1,13 @@
 # Bienvenue sur mon profil GitHub DEV (futur sénior)  🐈‍⬛
 
 # Ma [Gihub-page](https://jimmyomont.github.io/)
+# Mon [CV](https://cv-omont-jimmy.vercel.app/)
+---
+# mes projets en cours :
+# [Cohérence cardiaque "Kirby"](https://coherence-cardiaque-nu.vercel.app/#)
+# [Cohérence cardiaque "planetZen"](https://coherence-cardiaque-planet.vercel.app/)
+# [Mon Labo CodePen](https://codepen.io/jimmy76)
+---
 
 ## En cours de Titre Professionnel de Formation Developpement Web et Accessibilité 👨‍💻Chez **O'CLOCK**⏰
 ---
