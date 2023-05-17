@@ -108,6 +108,9 @@ function Main() {
                             <div className="card_content">Application single page en Html / Css et Javascript </div>
                         </div>
                     </article>
+
+                </div>
+                <div className="cardFlex">
                     <article className='card'>
                         <div className="block">
                             <div className="card_title">Map promo</div>
@@ -117,8 +120,6 @@ function Main() {
                             <div className="card_content">Single page Html avec integration javascript et animation css</div>
                         </div>
                     </article>
-                </div>
-                <div className='cardFlex'>
                     <article className='card3'>
                         <div className="block">
                             <div className="card_title">CV Html</div>
@@ -126,7 +127,10 @@ function Main() {
                             <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108432966515949659/Capture_decran_2023-05-17_183643.png" alt="" />
                             <div className="card_content">Single page Html avec integration javascript et animation css</div>
                         </div>
-                    </article>
+                    </article>                    
+                </div>
+                <div className='cardFlex'>
+
                     <article className='card'>
                         <div className="block">
                             <div className="card_title">Mon GitHub</div>
