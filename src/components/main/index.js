@@ -87,7 +87,7 @@ function Main() {
             </section>
 
             <section className='intro'>
-                <p>Labo et projets perso</p>
+                <p>Labos et projets perso</p>
             </section>
 
             <section>
@@ -95,15 +95,15 @@ function Main() {
                     <article className='card2'>
                         <div className="block">
                             <div className="card_title">Météo Locale</div>
-                            <div className="card_content">Méteo locale journalière de ma ville avec alternance avec le lieux le plus chaud du monde ainci que le plus froid de la planète avec diverse information et en lien avec des icones de représentation.</div>
+                            <div className="card_content">Méteo locale journalière de ma ville avec alternance avec le lieu le plus chaud du monde ainsi que le plus froid de la planète avec diverse information et en lien avec des icones de représentation.</div>
                             <img className='cardImage' src="https://shots.codepen.io/username/pen/QWZaaEZ-800.jpg?version=1683731866" alt="" />
-                            <div className="card_content">Cette mini météo est conçu en HTML , CSS et javascript avec un API n'utilisant pas d' ApiKey</div>
+                            <div className="card_content">Cette mini météo est conçue en HTML , CSS et javascript avec un API n'utilisant pas d' ApiKey</div>
                         </div>
                     </article>
                     <article className='card3'>
                         <div className="block">
                             <div className="card_title">Cohérence cardiaque</div>
-                            <div className="card_content">Parce qu'un bon dev doit être en bonne santé, cette application est faite pour une méditation et une relaxation assuré. Une utilisation quotidienne est recommandé. </div>
+                            <div className="card_content">Parce qu'un bon dev se doit d'être en bonne santé, cette application est faite pour une méditation et une relaxation assuré. Une utilisation quotidienne est recommandé. </div>
                             <img  className='cardImage' src="https://shots.codepen.io/username/pen/PodQmge-800.jpg?version=1678745742" alt="" />
                             <div className="card_content">Application single page en Html / Css et Javascript </div>
                         </div>
@@ -111,7 +111,7 @@ function Main() {
                     <article className='card'>
                         <div className="block">
                             <div className="card_title">Map promo</div>
-                            <div className="card_content">Projet que j'ai lancer au début de ma formation pour mettre en relation ma promo.
+                            <div className="card_content">Projet que j'ai lancé au début de ma formation pour mettre en relation ma promo.
                             Via un projet simple pour mettre aussi en application les bases apprises au cours des premières saison. </div>
                             <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108431538007314512/Capture_decran_2023-05-17_183101.png" alt="" />
                             <div className="card_content">Single page Html avec integration javascript et animation css</div>
@@ -130,7 +130,7 @@ function Main() {
                     <article className='card'>
                         <div className="block">
                             <div className="card_title">Mon GitHub</div>
-                            <div className="card_content">On dit qu'un dev aime partager. Et on apprend le mieux dans le partage et c'est pour cela que je partage tout mes projets términés sur mon GitHub. Non pas pour révolutionner le monde du dev mais pour peut etre inspirer un jour une personne. </div>
+                            <div className="card_content">On dit qu'un dev aime partager. Et on apprend le mieux dans le partage et c'est pour cela que je partage tout mes projets terminés sur mon GitHub. Non pas pour révolutionner le monde du dev mais pour peut etre inspirer un jour une personne. </div>
                             <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108433735176699975/telechargement.jpeg" alt="" />
                             <div className="card_content">Tout pleins de trucs plus ou moins interressant à découbvrir et aussi à améliorer ou à corrigé.. Enfin pour faire plein de truc quoi.</div>
                         </div>
@@ -138,8 +138,8 @@ function Main() {
                     <article className='card2'>
                         <div className="block">
                             <div className="card_title">Mon CodePen</div>
-                            <div className="card_content">Alors la c'est tout simplement une bibiothèque portative. Car aux repas de famille quand on te demande en quoi consiste " d'être dev'! " et bien tu au lieux de leur laisser croire que c'est juste une expression de Bobo
-                            et de leur montrer ton Github rempli de ligne et de yeroglife impossible à dechiffrer pour le commun des mortels ( comme moi il y a encore quelques mois) Et bien hop j'ai tout dans ma poche avec ma bibliothèque Codepen. Car un peu de visuel vaut mieux que mille lignes de code</div>
+                            <div className="card_content">Alors la c'est tout simplement une bibiothèque portative. Car aux repas de famille quand on te demande en quoi consiste " d'être dev'! " et bien au lieu de leur laisser croire que c'est juste une expression de Bobo
+                            et de leur montrer ton Github rempli de ligne et de hiéroglyphe impossible à dechiffrer pour le commun des mortels ( comme moi il y a encore quelques mois) Et bien hop j'ai tout dans ma poche avec ma bibliothèque Codepen. Car un peu de visuel vaut mieux que mille lignes de code</div>
                             <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108434816036241539/codepen_project-940x400.jpg" alt="" />
                             <div className="card_content">Attention les yeux! tu vas en prendre plein la vu! avec plein de choses plus ou moins interessante pour toi. Oui, j'ai dit bibliothèque perso pas "api ultra tendence". </div>
                         </div>
