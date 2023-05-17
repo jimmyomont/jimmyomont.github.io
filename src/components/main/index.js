@@ -127,7 +127,7 @@ function Main() {
                             <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108432966515949659/Capture_decran_2023-05-17_183643.png" alt="" />
                             <div className="card_content">Single page Html avec integration javascript et animation css</div>
                         </div>
-                    </article>                    
+                    </article>
                 </div>
                 <div className='cardFlex'>
 
@@ -136,7 +136,8 @@ function Main() {
                             <div className="card_title">Mon GitHub</div>
                             <div className="card_content">On dit qu'un dev aime partager. Et on apprend le mieux dans le partage et c'est pour cela que je partage tout mes projets terminés sur mon GitHub. Non pas pour révolutionner le monde du dev mais pour peut etre inspirer un jour une personne. </div>
                             <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108433735176699975/telechargement.jpeg" alt="" />
-                            <div className="card_content">Tout pleins de trucs plus ou moins interressant à découbvrir et aussi à améliorer ou à corrigé.. Enfin pour faire plein de truc quoi.</div>
+                            <div className="card_content">Tout pleins de trucs plus ou moins interressant à découvrir et aussi à améliorer ou à corrigé.. Enfin pour faire plein de truc quoi.
+                            On peut aider une personne mille fois. On peut aider mille personnes une fois. Mais on ne peut pas aider mille personnes mille fois !!!</div>
                         </div>
                     </article>
                     <article className='card2'>
