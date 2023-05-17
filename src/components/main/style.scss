@@ -1,0 +1,154 @@
+main {
+    color: white;
+    // border: solid black 1px;
+    text-align: center;
+
+    // display: flex;
+    // justify-content: center;
+}
+.intro{
+    border-top: 1px solid rgb(144, 138, 138);
+    border-bottom: 1px solid rgb(144, 138, 138);
+    width: 60%; 
+    display: inline-block;
+    color: black;
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+}
+.cardFlex{
+    // width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.cardGrid{
+    // width: 100%;
+    display:flex;
+}
+.block {
+    background: rgba(20, 19, 19, 0.326);
+}
+.card {
+    margin: 2rem;
+    display: inline-block;
+    border: 2px solid rgb(31, 2, 20);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-image: url(/src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);
+    background-size: cover;
+}
+.card2 {
+    margin: 2rem;
+    display: inline-block;
+    border: 2px solid rgb(31, 2, 20);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-image: url(/src/image/flowers-pattern-neon-colors-illustartion_739548-1365.jpg);
+    background-size: cover;
+}
+.card3 {
+    margin: 2rem;
+    display: inline-block;
+    border: 2px solid rgb(31, 2, 20);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
+    background-size: cover;
+}
+.card_content{
+    padding: 2rem;
+    font-size: 25PX;
+    font-family: 'Nunito Sans',sans-serif;
+    padding-top: 10px;
+    background: rgba(20, 19, 19, 0.451);
+}
+.card_title{
+    font-size: 3rem;
+    margin: auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 500px;
+    height: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.lien {
+    color: rgb(255, 255, 255);
+}
+.cardImage{
+    width: 40rem;
+    height: 20rem;
+    border-radius: 15px;
+    border: 3px solid rgb(225, 17, 190);
+}
+// .card:after {
+//     position: absolute;
+//     content: "";
+//     top: 0;
+//     left: -105px;
+//     z-index: -1;
+//     height: 135%;
+//     width: 138%;
+//     margin: 0 auto;
+//     transform: scale(0.75);
+//     -webkit-filter: blur(5vw);
+//     -moz-filter: blur(5vw);
+//     -ms-filter: blur(5vw);
+//     filter: blur(5vw);
+//     background: linear-gradient(270deg, #85ccd8e0, #b90c9f);
+//     background-size: 200% 200%;
+//     animation: animateGlow 10s ease infinite;
+// }
+
+// @keyframes animateGlow {
+//     0% {
+//         background-position: 0% 50%;
+//         transform: scale(50%);
+//     }
+
+//     50% {
+//         background-position: 100% 50%;
+//         transform: scale(80%);
+//     }
+
+//     100% {
+//         background-position: 0% 50%;
+//         transform: scale(50%);
+//     }
+// }
+
+
+.heures {
+    // animation:  10s ease infinite textColor;
+    border-bottom: 1px solid rgba(10, 10, 10,0.2);
+}
+
+.date {
+    // animation:  10s ease infinite textColor;
+    background: none;
+
+}
+//pour animer le texte en couleur
+
+// @keyframes textColor {
+//     0% {
+//         color: #ee5bd8;
+//     }
+
+//     50% {
+//         color: #2aa3cc;
+//     }
+
+//     100% {
+//         color: #ee52d7;
+//     }
+// }

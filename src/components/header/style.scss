@@ -1,0 +1,25 @@
+header {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+}
+
+    .name {
+        margin: 0;
+        font-size: 15em;
+        background-image: url( /src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);
+        // color: pink; 
+        color: transparent;
+        background-size: contain;
+        -webkit-background-clip: text;
+        filter: drop-shadow(0px -3px 1px rgba(0, 0, 0, 1));
+        animation: stripes 5s infinite alternate;
+    }
+
+
+@keyframes stripes {
+    100% {
+        background-position: 100px 0, 100px 0, 100px 0;
+    }
+}
