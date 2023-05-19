@@ -1,11 +1,8 @@
 main {
     color: white;
-    // border: solid black 1px;
     text-align: center;
-    // display: flex;
-    // justify-content: center;
 }
-.intro{
+.mainTitle{
     margin: 2rem;
     padding: 2rem;
     border-top: 1px solid rgb(144, 138, 138);
@@ -16,20 +13,12 @@ main {
     font-size: 3rem;
     font-family: 'Orbitron', sans-serif;
 }
-.cardFlex{
-    // width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.cardGrid{
-    // width: 100%;
-    display:flex;
-}
+
 .block {
     background: rgba(20, 19, 19, 0.326);
 }
 .card {
-    width: 30%;
+    width: 27%;
     margin: 2rem;
     display: inline-block;
     border: 2px solid rgb(31, 2, 20);
@@ -38,118 +27,55 @@ main {
     border-radius: 15px;
     position: relative;
     text-align: center;
-    background-image: url(/src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);
     background-size: cover;
-}
-.card2 {
-    width: 30%;
-    margin: 2rem;
-    display: inline-block;
-    border: 2px solid rgb(31, 2, 20);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 15px;
-    position: relative;
-    text-align: center;
-    background-image: url(/src/image/flowers-pattern-neon-colors-illustartion_739548-1365.jpg);
-    background-size: cover;
-}
-.card3 {
-    width: 30%;
-    margin: 2rem;
-    display: inline-block;
-    border: 2px solid rgb(31, 2, 20);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 15px;
-    position: relative;
-    text-align: center;
-    background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
-    background-size: cover;
-}
+    box-shadow: 10px 10px 13px rgb(177, 148, 189);
 
-.card_content{
+    &-main{
+        width: 30%
+    }
+    &-position{
+    display: flex;
+    justify-content: space-around;
+    }
+    &-one{
+        background-image: url(/src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);
+    }
+    &-two{
+        background-image: url(/src/image/flowers-pattern-neon-colors-illustartion_739548-1365.jpg);
+    }
+    &-three{
+            background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
+    }
+    &-content{
     padding: 2rem;
     font-size: 1.3em;
     font-family: 'Nunito Sans',sans-serif;
     padding-top: 10px;
     background: rgba(20, 19, 19, 0.451);
-}
-.card_title{
-    // width: 500px;
-    // height: 100px;
+    }
+    &-title{
     margin: auto auto 2rem;
     padding: 2rem 2rem 5px;
     font-family: Orbitron,sans-serif;
     font-size: 3rem;
-}
-.lien {
-    color: rgb(255, 255, 255);
-}
-.cardImage{
+    }
+    &-image{
+        margin: 1rem;
     width: -webkit-fill-available;
     border-radius: 15px;
     border: 3px solid rgb(225, 17, 190);
+    }
 }
-// .card:after {
-//     position: absolute;
-//     content: "";
-//     top: 0;
-//     left: -105px;
-//     z-index: -1;
-//     height: 135%;
-//     width: 138%;
-//     margin: 0 auto;
-//     transform: scale(0.75);
-//     -webkit-filter: blur(5vw);
-//     -moz-filter: blur(5vw);
-//     -ms-filter: blur(5vw);
-//     filter: blur(5vw);
-//     background: linear-gradient(270deg, #85ccd8e0, #b90c9f);
-//     background-size: 200% 200%;
-//     animation: animateGlow 10s ease infinite;
-// }
 
-// @keyframes animateGlow {
-//     0% {
-//         background-position: 0% 50%;
-//         transform: scale(50%);
-//     }
-
-//     50% {
-//         background-position: 100% 50%;
-//         transform: scale(80%);
-//     }
-
-//     100% {
-//         background-position: 0% 50%;
-//         transform: scale(50%);
-//     }
-// }
-
+.lien {
+    color: rgb(255, 255, 255);
+}
 
 .heures {
-    // animation:  10s ease infinite textColor;
     border-bottom: 1px solid rgba(10, 10, 10,0.2);
 }
 
 .date {
-    // animation:  10s ease infinite textColor;
     background: none;
 
 }
-//pour animer le texte en couleur
-
-// @keyframes textColor {
-//     0% {
-//         color: #ee5bd8;
-//     }
-
-//     50% {
-//         color: #2aa3cc;
-//     }
-
-//     100% {
-//         color: #ee52d7;
-//     }
-// }

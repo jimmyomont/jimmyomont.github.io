@@ -2,12 +2,12 @@ function Card ({style, title, content, lien, image, descr} ) {
     return (
         <article className={style}>
         <div className="block">
-            <div className="card_title">{title}</div>
-            <div className="card_content">{content}</div>
+            <div className="card-title">{title}</div>
+            <div className="card-content">{content}</div>
             <a href={lien}>
-                <img className='cardImage' src={image} alt="" />
+                <img className='card-image' src={image} alt="" />
                 </a> 
-            <div className="card_content">{descr}</div>
+            <div className="card-content">{descr}</div>
         </div>
     </article>
     )
