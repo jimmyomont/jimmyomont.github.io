@@ -1,6 +1,6 @@
-function Card (title, content, lien, image, descr ) {
+function Card ({style, title, content, lien, image, descr} ) {
     return (
-        <article className='card'>
+        <article className={style}>
         <div className="block">
             <div className="card_title">{title}</div>
             <div className="card_content">{content}</div>

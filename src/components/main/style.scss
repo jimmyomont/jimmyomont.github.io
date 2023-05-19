@@ -6,6 +6,8 @@ main {
     // justify-content: center;
 }
 .intro{
+    margin: 2rem;
+    padding: 2rem;
     border-top: 1px solid rgb(144, 138, 138);
     border-bottom: 1px solid rgb(144, 138, 138);
     width: 60%; 
@@ -65,19 +67,7 @@ main {
     background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
     background-size: cover;
 }
-.cardEnd {
-    width: 70%;
-    margin: 2rem;
-    display: inline-block;
-    border: 2px solid rgb(31, 2, 20);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 15px;
-    position: relative;
-    text-align: center;
-    background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
-    background-size: cover;
-}
+
 .card_content{
     padding: 2rem;
     font-size: 1.3em;
