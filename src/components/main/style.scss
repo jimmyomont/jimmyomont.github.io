@@ -2,7 +2,6 @@ main {
     color: white;
     // border: solid black 1px;
     text-align: center;
-
     // display: flex;
     // justify-content: center;
 }
@@ -28,6 +27,7 @@ main {
     background: rgba(20, 19, 19, 0.326);
 }
 .card {
+    width: 30%;
     margin: 2rem;
     display: inline-block;
     border: 2px solid rgb(31, 2, 20);
@@ -40,6 +40,7 @@ main {
     background-size: cover;
 }
 .card2 {
+    width: 30%;
     margin: 2rem;
     display: inline-block;
     border: 2px solid rgb(31, 2, 20);
@@ -52,6 +53,20 @@ main {
     background-size: cover;
 }
 .card3 {
+    width: 30%;
+    margin: 2rem;
+    display: inline-block;
+    border: 2px solid rgb(31, 2, 20);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
+    background-size: cover;
+}
+.cardEnd {
+    width: 70%;
     margin: 2rem;
     display: inline-block;
     border: 2px solid rgb(31, 2, 20);
@@ -65,28 +80,24 @@ main {
 }
 .card_content{
     padding: 2rem;
-    font-size: 25PX;
+    font-size: 1.3em;
     font-family: 'Nunito Sans',sans-serif;
     padding-top: 10px;
     background: rgba(20, 19, 19, 0.451);
 }
 .card_title{
+    // width: 500px;
+    // height: 100px;
+    margin: auto auto 2rem;
+    padding: 2rem 2rem 5px;
+    font-family: Orbitron,sans-serif;
     font-size: 3rem;
-    margin: auto;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    width: 500px;
-    height: 100px;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 700;
-    padding-bottom: 5px;
 }
 .lien {
     color: rgb(255, 255, 255);
 }
 .cardImage{
-    width: 40rem;
-    height: 20rem;
+    width: -webkit-fill-available;
     border-radius: 15px;
     border: 3px solid rgb(225, 17, 190);
 }

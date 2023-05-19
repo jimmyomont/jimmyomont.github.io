@@ -1,3 +1,4 @@
+import Card from "../Card";
 import Header from "../header";
 import Main from "../main";
 import './style.scss'
@@ -9,9 +10,8 @@ function Portfolio(){
         lastname="Jimmy "
         firstname="OMONT">
         </Header>
-        <Main 
-        lastname="test "
-        firstname="test">
+
+        <Main >
         </Main>
         </>
     );

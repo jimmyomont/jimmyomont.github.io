@@ -111,10 +111,7 @@ function Main() {
                             <div className="card_content">Application single page en Html / Css et Javascript </div>
                         </div>
                     </article>
-
-                </div>
-                <div className="cardFlex">
-                    <article className='card'>
+                <article className='card'>
                         <div className="block">
                             <div className="card_title">Map promo</div>
                             <div className="card_content">Projet que j'ai lancé au début de ma formation pour mettre en relation ma promo.
@@ -125,7 +122,10 @@ function Main() {
                             <div className="card_content">Single page Html avec integration javascript et animation css</div>
                         </div>
                     </article>
-                    <article className='card3'>
+                </div>
+                <div className='cardFlex'>
+
+                    <article className='card'>
                         <div className="block">
                             <div className="card_title">CV Html</div>
                             <div className="card_content">Un bon dev se doit d'avoir un bon CV en ligne. Pour pouvoir le partager à tout moment , en se déplaçant dans le meetro ou à un croisement de rue. Bref , Comme on dit : si c'est sur le net c'est forcément dans la poche!! </div>
@@ -135,10 +135,7 @@ function Main() {
                             <div className="card_content">Single page Html avec integration javascript et animation css</div>
                         </div>
                     </article>
-                </div>
-                <div className='cardFlex'>
-
-                    <article className='card'>
+                    <article className='card2'>
                         <div className="block">
                             <div className="card_title">Mon GitHub</div>
                             <div className="card_content">On dit qu'un dev aime partager. Et on apprend le mieux dans le partage et c'est pour cela que je partage tout mes projets terminés sur mon GitHub. Non pas pour révolutionner le monde du dev mais pour peut etre inspirer un jour une personne. </div>
@@ -149,7 +146,7 @@ function Main() {
                             On peut aider une personne mille fois. On peut aider mille personnes une fois. Mais on ne peut pas aider mille personnes mille fois !!!</div>
                         </div>
                     </article>
-                    <article className='card2'>
+                    <article className='card3'>
                         <div className="block">
                             <div className="card_title">Mon CodePen</div>
                             <div className="card_content">Alors la c'est tout simplement une bibiothèque portative. Car aux repas de famille quand on te demande en quoi consiste " d'être dev'! " et bien au lieu de leur laisser croire que c'est juste une expression de Bobo
@@ -160,8 +157,9 @@ function Main() {
                             <div className="card_content">Attention les yeux! tu vas en prendre plein la vu! avec plein de choses plus ou moins interessante pour toi. Oui, j'ai dit bibliothèque perso pas "api ultra tendence". </div>
                         </div>
                     </article>
+                    <div>   
+        </div>
                 </div>
-
             </section>
         </main>
     )
