@@ -104,7 +104,7 @@ function Main() {
                     <article className='card3'>
                         <div className="block">
                             <div className="card_title">Cohérence cardiaque</div>
-                            <div className="card_content">Parce qu'un bon dev se doit d'être en bonne santé, cette application est faite pour une méditation et une relaxation assuré. Une utilisation quotidienne est recommandé. </div>
+                            <div className="card_content">Parce qu'un bon développeur se doit d'être en bonne santé, cette application est conçue pour assurer la méditation et la relaxation. Une utilisation quotidienne est recommandée. </div>
                             <a href='https://coherence-cardiaque-planet.vercel.app/'>
                                 <img  className='cardImage' src="https://shots.codepen.io/username/pen/PodQmge-800.jpg?version=1678745742" alt="" /> 
                                 </a> 
@@ -115,7 +115,7 @@ function Main() {
                         <div className="block">
                             <div className="card_title">Map promo</div>
                             <div className="card_content">Projet que j'ai lancé au début de ma formation pour mettre en relation ma promo.
-                            Via un projet simple pour mettre aussi en application les bases apprises au cours des premières saison. </div>
+                            Via un projet simple pour mettre aussi en application les bases apprises au cours des premières saisons de formation. </div>
                             <a href='https://map-sphinx.vercel.app/'>
                                 <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108431538007314512/Capture_decran_2023-05-17_183101.png" alt="" />
                                 </a> 
@@ -128,7 +128,7 @@ function Main() {
                     <article className='card'>
                         <div className="block">
                             <div className="card_title">CV Html</div>
-                            <div className="card_content">Un bon dev se doit d'avoir un bon CV en ligne. Pour pouvoir le partager à tout moment , en se déplaçant dans le meetro ou à un croisement de rue. Bref , Comme on dit : si c'est sur le net c'est forcément dans la poche!! </div>
+                            <div className="card_content">Un bon dev se doit d'avoir un bon CV en ligne. Pour pouvoir le partager à tout moment , en se déplaçant dans le métro ou à un croisement de rue. Bref , Comme on dit : si c'est sur le net c'est forcément dans la poche!! </div>
                             <a href='https://cv-omont-jimmy.vercel.app/'>
                                 <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108432966515949659/Capture_decran_2023-05-17_183643.png" alt="" />
                                 </a> 
@@ -138,11 +138,11 @@ function Main() {
                     <article className='card2'>
                         <div className="block">
                             <div className="card_title">Mon GitHub</div>
-                            <div className="card_content">On dit qu'un dev aime partager. Et on apprend le mieux dans le partage et c'est pour cela que je partage tout mes projets terminés sur mon GitHub. Non pas pour révolutionner le monde du dev mais pour peut etre inspirer un jour une personne. </div>
+                            <div className="card_content">On dit qu'un dev aime partager. Et partager c'est aussi apprendre. C'est pour cela que je met en ligne tout mes projets terminés sur mon GitHub. Non pas pour révolutionner le monde du dev mais pour peut être inspirer un jour une personne. </div>
                             <a href='https://github.com/jimmyomont'>
                                 <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108433735176699975/telechargement.jpeg" alt="" />
                                 </a> 
-                            <div className="card_content">Tout pleins de trucs plus ou moins interressant à découvrir et aussi à améliorer ou à corrigé.. Enfin pour faire plein de truc quoi.
+                            <div className="card_content">Tout pleins de trucs plus ou moins interressant à découvrir et aussi à améliorer.. Enfin pour faire plein de trucs quoi.
                             On peut aider une personne mille fois. On peut aider mille personnes une fois. Mais on ne peut pas aider mille personnes mille fois !!!</div>
                         </div>
                     </article>
@@ -150,7 +150,7 @@ function Main() {
                         <div className="block">
                             <div className="card_title">Mon CodePen</div>
                             <div className="card_content">Alors la c'est tout simplement une bibiothèque portative. Car aux repas de famille quand on te demande en quoi consiste " d'être dev'! " et bien au lieu de leur laisser croire que c'est juste une expression de Bobo
-                            et de leur montrer ton Github rempli de ligne et de hiéroglyphe impossible à dechiffrer pour le commun des mortels ( comme moi il y a encore quelques mois) Et bien hop j'ai tout dans ma poche avec ma bibliothèque Codepen. Car un peu de visuel vaut mieux que mille lignes de code</div>
+                            et de leur montrer ton Github rempli de ligne et de hiéroglyphes impossible à dechiffrer pour le commun des mortels ( comme moi il y a encore quelques mois) Et bien hop j'ai tout dans ma poche avec ma bibliothèque Codepen. Car un peu de visuel vaut mieux que mille lignes de code</div>
                             <a href='https://codepen.io/jimmy76'>
                                 <img className='cardImage' src="https://cdn.discordapp.com/attachments/1101739977081094197/1108434816036241539/codepen_project-940x400.jpg" alt="" />
                                 </a> 
