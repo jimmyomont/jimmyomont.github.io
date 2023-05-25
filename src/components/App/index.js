@@ -2,6 +2,7 @@
 import Header from "../Header";
 import Main from "../Main";
 import Footer from "../Footer";
+import Labo from "../Labo";
 import './style.scss'
 
 function App(){
@@ -12,9 +13,10 @@ function App(){
         lastname="Jimmy "
         firstname="OMONT">
         </Header>
-        <Main />
+        <Main>
+        <Labo />
+        </Main>
         </div>
-
         <Footer />
         </>
     );

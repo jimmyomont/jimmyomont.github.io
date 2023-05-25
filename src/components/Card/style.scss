@@ -3,7 +3,7 @@
     background: rgba(20, 19, 19, 0.157);
 }
 .card {
-    width: 27%;
+    width: 22.5%;
     margin: 2rem;
     display: inline-block;
     border: 2px solid rgb(31, 2, 20);
@@ -16,11 +16,11 @@
     box-shadow: 7px 7px 15px rgb(84, 69, 90);
     transition: transform .3s;
     &-main{
-        width: 30%
+        width: 22.5%
     }
     &-position{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     }
     &-one{
         background-image: url(/src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);

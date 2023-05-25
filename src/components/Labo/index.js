@@ -9,7 +9,7 @@ function  Labo(){
     </section>
 
     <section>
-        <div className='card-position'>
+            <div className='card-position'>
             <Card
                 style='card card-one'
                 title='Météo Locale'
@@ -66,7 +66,7 @@ function  Labo(){
         </div>
         <div className="card-position">
             <Card
-                style='card card-two'
+                style='card card-three'
                 title='Map promo'
                 content="Projet que j'ai lancé au début de ma formation pour mettre en relation ma promo.
                     Via un projet simple pour mettre aussi en application les bases apprises au cours des premières saisons de formation."
@@ -74,10 +74,26 @@ function  Labo(){
                 image='https://cdn.discordapp.com/attachments/1101739977081094197/1108431538007314512/Capture_decran_2023-05-17_183101.png'
                 descr="Single page Html avec integration javascript et animation css"
             />
+            <Card
+                style='card card-two'
+                title='futur nouveau projet '
+                content="un peu de patience... cette place trouvera bientôt un nouveau projet"
+                // lien=''
+                image='https://cdn.discordapp.com/attachments/1101739977081094197/1111351143625412658/sticker-loading-please-wait-2-ambiance-sticker-mac_LoadingWait.jpg'
+                descr=""
+            />
+            <Card
+                style='card card-one'
+                title='futur nouveau projet '
+                content="un peu de patience... cette place trouvera bientôt un nouveau projet"
+                // lien=''
+                image='https://cdn.discordapp.com/attachments/1101739977081094197/1111351143625412658/sticker-loading-please-wait-2-ambiance-sticker-mac_LoadingWait.jpg'
+                descr=""
+            />
         </div>
     </section>
         </>
     )
 }
 
-export default Labo
+export default Labo;
