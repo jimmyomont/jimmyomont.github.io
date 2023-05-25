@@ -7,11 +7,14 @@ import './style.scss'
 function App(){
     return(
         <>
+        <div className="margin">
         <Header 
         lastname="Jimmy "
         firstname="OMONT">
         </Header>
         <Main />
+        </div>
+
         <Footer />
         </>
     );
