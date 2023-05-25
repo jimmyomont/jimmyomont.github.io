@@ -13,7 +13,7 @@
     position: relative;
     text-align: center;
     background-size: cover;
-    box-shadow: 10px 10px 13px rgb(177, 148, 189);
+    box-shadow: 7px 7px 15px rgb(84, 69, 90);
     transition: transform .3s;
     &-main{
         width: 30%
@@ -53,9 +53,9 @@
 }
 .card:hover{
     transform: scale(1.05);
-    box-shadow: 15px 15px 13px rgb(177, 148, 189);
+    box-shadow: 20px 20 18px rgb(84, 69, 90);
     .block {
-        background: rgba(11, 10, 11, 0.607);
+        background: rgba(10, 11, 10, 0.607);
     }
 }
 

@@ -13,8 +13,8 @@ const valeursParDefaut = {
     colors: [
         {
             // Vous pouvez ajouter plusieurs couleurs (choisies aleatoirement) en ajoutant des elements au tableau.
-            gradientColorStart: 'rgba(1, 157, 142, 0.9)', // Couleur de debut du degrade (rgba).
-            gradientColorEnd: 'rgba(1, 157, 142, 0.9)', // Couleur de fin du degrade (rgba).
+            gradientColorStart: 'rgba(1, 157, 142, 0.5)', // Couleur de debut du degrade (rgba).
+            gradientColorEnd: 'rgba(1, 157, 142, 0.5)', // Couleur de fin du degrade (rgba).
             gradientColorDegree: 120, // Angle de degre du degrade.
         },
     ],

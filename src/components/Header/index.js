@@ -10,8 +10,8 @@ function Header({lastname, firstname}){
                 </article>
                 <article className='card cardTime card-one'>
                     <div className="horloge">
-                        <div className="card-title heures">Ici l heure</div>
-                        <div className="card-content date"> Ici la date</div>
+                        <p className="card-title heures">Ici l heure</p>
+                        <p className="card-content date"> Ici la date</p>
                     </div>
                 </article>
             </section>
