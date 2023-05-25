@@ -24,3 +24,28 @@ header {
         background-position: 100px 0, 100px 0, 100px 0;
     }
 }
+
+.cardTime:hover{
+    animation: 10s ease infinite ;
+    animation-name: boingInUp;
+@keyframes boingInUp {
+    0% {
+        opacity: 1;
+        transform-origin: 50% 0%;
+        transform: perspective(800px) rotateX(-30deg);
+    }
+
+    50% {
+        opacity: 1;
+        transform-origin: 50% 0%;
+        transform: perspective(800px) rotateX(30deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform-origin: 50% 0%;
+        transform: perspective(800px) rotateX(-30deg);
+    }
+}
+
+}

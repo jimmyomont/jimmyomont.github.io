@@ -1,3 +1,5 @@
+import './style.scss';
+
 function Card ({style, title, content, lien, image, descr} ) {
     return (
         <article className={style}>

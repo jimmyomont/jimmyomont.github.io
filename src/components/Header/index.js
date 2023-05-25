@@ -8,7 +8,7 @@ function Header({lastname, firstname}){
                 <article>
                     <h1 className="name">{lastname}{firstname}</h1>
                 </article>
-                <article className='card card-one'>
+                <article className='card cardTime card-one'>
                     <div className="horloge">
                         <div className="card-title heures">Ici l heure</div>
                         <div className="card-content date"> Ici la date</div>

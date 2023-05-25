@@ -5,3 +5,31 @@
     color: white; 
     font-size: 2rem;
 }
+
+// .damierFlex{
+//         display: flex;
+// }
+// .damier{
+//     // clip-path: polygon(0% 0%, 100% 0%, 100% 25%, 0% 25%, 0% 50%, 100% 50%, 100% 75%, 0% 75%, 0% 100%, 100% 100%, 100% 0%, 75% 0%, 75% 100%, 50% 100%, 50% 0%, 25% 0%, 25% 100%, 0% 100%);
+//     clip-path: polygon(0% 0%, 10% 0%, 10% 100%, 20% 100%, 20% 0%, 30% 0%, 30% 100%, 40% 100%, 40% 0%, 50% 0%, 50% 100%, 60% 100%, 60% 0%, 70% 0%, 70% 100%, 80% 100%, 80% 0%, 90% 0%, 90% 100%, 100% 100%, 100% 0%, 100% 10%, 0% 10%, 0% 20%, 100% 20%, 100% 30%, 0% 30%, 0% 40%, 100% 40%, 100% 50%, 0% 50%, 0% 60%, 100% 60%, 100% 70%, 0% 70%, 0% 80%, 100% 80%, 100% 90%, 0% 90%, 0% 100%);
+//     width: 10rem; 
+//     height: 10rem;
+
+//     background-size:contain;
+//     animation: stripes 5s infinite alternate;
+//     &-img1{
+//     background-image: url( ../../image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);        
+//     }
+//     &-img2{
+//     background-image: url( ../../image/flowers-pattern-neon-colors-illustartion_739548-1365.jpg);        
+//     }
+//     &-img3{
+//     background-image: url( ../../image/Capture\ d’écran\ 2023-05-16\ 162846.png);        
+//     }
+// }
+
+// @keyframes stripes {
+//     100% {
+//         background-position: 100px 0, 100px 0, 100px 0;
+//     }
+// }

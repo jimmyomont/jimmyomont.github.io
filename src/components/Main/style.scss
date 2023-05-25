@@ -14,59 +14,6 @@ main {
     font-family: 'Orbitron', sans-serif;
 }
 
-.block {
-    background: rgba(20, 19, 19, 0.326);
-}
-.card {
-    width: 27%;
-    margin: 2rem;
-    display: inline-block;
-    border: 2px solid rgb(31, 2, 20);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 15px;
-    position: relative;
-    text-align: center;
-    background-size: cover;
-    box-shadow: 10px 10px 13px rgb(177, 148, 189);
-
-    &-main{
-        width: 30%
-    }
-    &-position{
-    display: flex;
-    justify-content: space-around;
-    }
-    &-one{
-        background-image: url(/src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);
-    }
-    &-two{
-        background-image: url(/src/image/flowers-pattern-neon-colors-illustartion_739548-1365.jpg);
-    }
-    &-three{
-            background-image: url(/src/image/kassandras__vibrant_flower_pattern_colorful_6f2e398e-b0b7-433f-830e-2e297f9c9f93.webp);
-    }
-    &-content{
-    padding: 2rem;
-    font-size: 1.3em;
-    font-family: 'Nunito Sans',sans-serif;
-    padding-top: 10px;
-    background: rgba(20, 19, 19, 0.451);
-    }
-    &-title{
-    margin: auto auto 2rem;
-    padding: 2rem 2rem 5px;
-    font-family: Orbitron,sans-serif;
-    font-size: 3rem;
-    }
-    &-image{
-        margin: 1rem;
-    width: -webkit-fill-available;
-    border-radius: 15px;
-    border: 3px solid rgb(225, 17, 190);
-    }
-}
-
 .lien {
     color: rgb(255, 255, 255);
 }
@@ -77,5 +24,5 @@ main {
 
 .date {
     background: none;
-
 }
+

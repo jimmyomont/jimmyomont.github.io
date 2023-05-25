@@ -28,12 +28,11 @@ function  Labo(){
             />
             <Card
                 style='card card-two'
-                title='Map promo'
-                content="Projet que j'ai lancé au début de ma formation pour mettre en relation ma promo.
-                    Via un projet simple pour mettre aussi en application les bases apprises au cours des premières saisons de formation."
-                lien='https://map-sphinx.vercel.app/'
-                image='https://cdn.discordapp.com/attachments/1101739977081094197/1108431538007314512/Capture_decran_2023-05-17_183101.png'
-                descr="Single page Html avec integration javascript et animation css"
+                title='Projet de formation'
+                content="Projet de suivi de formation avec la mise en application de tout ce que nous voyons cycle par cycle"
+                lien='https://pilori.vercel.app/'
+                image='https://cdn.discordapp.com/attachments/1101739977081094197/1111184175911948318/list-large.png'
+                descr=" En cours d ajout"
             />
         </div>
         <div className='card-position'>
@@ -63,6 +62,17 @@ function  Labo(){
                 lien='https://codepen.io/jimmy76'
                 image='https://cdn.discordapp.com/attachments/1101739977081094197/1108434816036241539/codepen_project-940x400.jpg'
                 descr="Attention les yeux! tu vas en prendre plein la vu! avec plein de choses plus ou moins interessante pour toi. Oui, j'ai dit bibliothèque perso pas 'api ultra tendence'."
+            />
+        </div>
+        <div className="card-position">
+            <Card
+                style='card card-two'
+                title='Map promo'
+                content="Projet que j'ai lancé au début de ma formation pour mettre en relation ma promo.
+                    Via un projet simple pour mettre aussi en application les bases apprises au cours des premières saisons de formation."
+                lien='https://map-sphinx.vercel.app/'
+                image='https://cdn.discordapp.com/attachments/1101739977081094197/1108431538007314512/Capture_decran_2023-05-17_183101.png'
+                descr="Single page Html avec integration javascript et animation css"
             />
         </div>
     </section>
