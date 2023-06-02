@@ -1,20 +1,30 @@
 header {
+
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     font-family: "Oswald", sans-serif;
 }
-
+.header{
+    display: flex;
+    min-width: 30%;
+}
 .name {
     margin: 0;
-    font-size: 12em;
+    font-size: 11em;
     background-image: url( /src/image/Capture\ d’écran\ 2023-05-16\ 162846.png);
     color: transparent;
     background-size: contain;
     -webkit-background-clip: text;
     filter: drop-shadow(0px -3px 1px rgba(0, 0, 0, 1));
     animation: stripes 5s infinite alternate;
+    @media screen and (max-width: 1500px) {
+        font-size: 8rem;
+    }
+    @media screen and (max-width: 900px){
+        font-size: 4em;
+      }
 }
 
 @keyframes stripes {

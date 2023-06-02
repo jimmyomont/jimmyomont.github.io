@@ -61,7 +61,7 @@ function Header({ lastname, firstname }) {
     return (
         <header>
             <section>
-                <article>
+                <article  className='header'>
                     <h1 className="name">{lastname}{firstname}</h1>
                 </article>
                 <article className='card cardTime card-one'>
