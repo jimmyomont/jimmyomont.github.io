@@ -72,10 +72,18 @@ function Main({children}) {
                 <article className='card card-three card-main'>
                     <div className="block">
                         <div className="card-title">Experience </div>
-                        <div className="card-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut deserunt eum atque sequi eveniet vel blanditiis quis harum dolorum, nihil minima amet expedita voluptate excepturi. Amet quo velit quas tempora!</div>
-                        <div className="card-title">developpeur web </div>
-                        <div className="card-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quidem perferendis necessitatibus debitis doloribus dolore aut quae, soluta rerum dolorem at maxime neque similique nobis quia facere ex labore harum.</div>
-                        <div className="card-content"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti itaque asperiores, magni consequatur fugit officia voluptates corporis id aliquam, eveniet obcaecati neque recusandae tempora hic repellat, voluptatibus ab provident minima.</div>
+                        <div className="card-subtitle">
+                            <p>Stage en entreprise </p>
+                        </div>
+                        <div className="card-content">
+                            Il sera accés sur l accessibilité.
+                            Je ne peux pas fournir plus de détails pour le moment, n'ayant pas encore commencé.
+                        </div>
+                        <div className="card-subtitle">
+                            <p>Projet tutoré de fin de formation: </p>
+                        </div>
+                        <div className='card-content'>
+                        Actuellement en préparation du projet et je ne peux pas fournir plus de détails pour le moment, sa réalisation commencera en Juin 2023.</div>
                     </div>
                 </article>
             </section>

@@ -22,7 +22,7 @@ header {
     @media screen and (max-width: 1500px) {
         font-size: 8rem;
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 915px){
         font-size: 4em;
       }
 }
@@ -37,13 +37,15 @@ header {
     cursor: none;
     animation: 10s ease infinite ;
     animation-name: boingInUp;
+    @media screen and (max-width: 900px){
+        animation: none;
+      }
 @keyframes boingInUp {
     0% {
         opacity: 1;
         transform-origin: 50% 0%;
         transform: perspective(800px) rotateX(-30deg);
         box-shadow: 0px 0px 0px rgb(71, 58, 76);
-        
     }
 
     50% {

@@ -86,7 +86,7 @@ function  Labo(){
                 style='card card-one'
                 title='futur nouveau projet '
                 content="un peu de patience... cette place trouvera bientôt un nouveau projet"
-                // lien=''
+                // liens=''
                 image='https://cdn.discordapp.com/attachments/1101739977081094197/1111351143625412658/sticker-loading-please-wait-2-ambiance-sticker-mac_LoadingWait.jpg'
                 descr=""
             />
