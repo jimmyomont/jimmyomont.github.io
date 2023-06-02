@@ -19,8 +19,8 @@
     box-shadow: 7px 7px 15px rgb(84, 69, 90);
     transition: transform .3s;
     @media screen and (max-width: 900px){
-        margin: 0.5rem;
-        display: block;
+        margin: 0rem;
+        margin-top: 0.5rem;
       }
     &-main{
         // width: 25%

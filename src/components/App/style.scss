@@ -138,6 +138,10 @@ body {
 	.margin {
 		min-width: 50%;
 		margin: 5rem;
+		@media screen and (max-width: 915px){
+			min-width: 100%;
+			margin: 0;
+		  }
 	}
 
 }
