@@ -10,7 +10,7 @@ function App(){
         <>
         <div className="margin">
         <Header 
-        lastname="Jimmy"
+        lastname="Jimmy."
         firstname="OMONT">
         </Header>
         <Main>

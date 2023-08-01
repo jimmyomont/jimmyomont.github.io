@@ -26,15 +26,6 @@ function Main({children}) {
                                 <li>Curiosité </li>
                             </ul>
                         </div>
-                        {/* <div className="card-title">Cordonnées et profil</div>
-                        <div className="card-content">
-                            <ul>
-                                <li>06.66.25.21.41</li>
-                                <li>jimmy.omont@hotmail.fr</li>
-                                <li>92100 Boulogne Billancourt</li>
-                                <li><a className="lien" href="https://www.linkedin.com/in/jimmy-omont-141471166/">Profil LinkeIn</a></li>
-                            </ul>
-                        </div> */}
                     </div>
                 </article>
                 <article className='card card-two card-main'>

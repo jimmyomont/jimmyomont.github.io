@@ -1,25 +1,15 @@
 import './style.scss'
 
-function Footer(){
+function Footer() {
     return (
         <>
-        {/* <section className='damierFlex'>
-        <img className="damier damier-img1"/>
-        <img className="damier damier-img2"/>
-        <img className="damier damier-img3"/>
-        <img className="damier damier-img1"/>
-        <img className="damier damier-img3"/>
-        <img className="damier damier-img2"/>
-        <img className="damier damier-img1"/>
-        <img className="damier damier-img2"/>
-        <img className="damier damier-img3"/>
-        <img className="damier damier-img1"/>
-        <img className="damier damier-img2"/>
-        <img className="damier damier-img1"/>
-        </section> */}
-        <p className="footer">Portfolio de Jimmy Omont </p>
+            <p className="footer">
+                <p>Portfolio de Jimmy Omont</p>
+                <a className="lien" href='mailto:jimmy-omont@hotmail.fr'>jimmy.omont@hotmail.fr</a>
+                <p>06.66.25.21.41</p>
+                <p><a className="lien" href="https://www.linkedin.com/in/jimmy-omont-141471166/">Profil LinkeIn</a></p>
+            </p>
         </>
-
     )
 }
 

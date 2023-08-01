@@ -80,6 +80,7 @@
         font-size: 1.5rem;
     }
     &-image{
+    width: -moz-available;
     margin: 1rem;
     width: -webkit-fill-available;
     border-radius: 15px;
