@@ -41,7 +41,7 @@ function  Labo(){
                 title='CV Html'
                 content="Un bon dev se doit d'avoir un bon CV en ligne. Pour pouvoir le partager à tout moment , en se déplaçant dans le métro ou à un croisement de rue. Bref , Comme on dit : si c'est sur le net c'est forcément dans la poche!!"
                 lien='https://cv-omont-jimmy.vercel.app/'
-                image='https://cdn.discordapp.com/attachments/1101739977081094197/1108432966515949659/Capture_decran_2023-05-17_183643.png'
+                image='https://cdn.discordapp.com/attachments/1101739977081094197/1138497287102931024/cvHtml.png'
                 descr="Single page Html avec integration javascript et animation css"
             />
 
