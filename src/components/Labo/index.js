@@ -5,7 +5,7 @@ function  Labo(){
     return (
         <>
         <section className='mainTitle'>
-        <h4>Labos et projets perso</h4>
+        <h4>Projets perso</h4>
     </section>
 
     <section>
@@ -76,7 +76,7 @@ function  Labo(){
             />
             <Card
                 style='card card-two'
-                title='futur nouveau projet '
+                title='Projet en cours ...'
                 content="un peu de patience... cette place trouvera bientôt un nouveau projet"
                 // lien=''
                 image='https://cdn.discordapp.com/attachments/1101739977081094197/1111351143625412658/sticker-loading-please-wait-2-ambiance-sticker-mac_LoadingWait.jpg'
@@ -84,7 +84,7 @@ function  Labo(){
             />
             <Card
                 style='card card-one'
-                title='futur nouveau projet '
+                title='Projet en cours ...'
                 content="un peu de patience... cette place trouvera bientôt un nouveau projet"
                 // liens=''
                 image='https://cdn.discordapp.com/attachments/1101739977081094197/1111351143625412658/sticker-loading-please-wait-2-ambiance-sticker-mac_LoadingWait.jpg'

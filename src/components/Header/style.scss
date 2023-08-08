@@ -24,7 +24,7 @@ header {
     }
     @media screen and (max-width: 915px){
         font-size: 3em;
-      }
+    }
 }
 
 @keyframes stripes {
@@ -39,7 +39,7 @@ header {
     animation-name: boingInUp;
     @media screen and (max-width: 900px){
         animation: none;
-      }
+    }
 @keyframes boingInUp {
     0% {
         opacity: 1;
