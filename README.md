@@ -1,25 +1,21 @@
 # Bienvenue sur mon profil GitHub DEV 🐈‍⬛
 
-# [Ma Gihub-page Portfolio](https://jimmyomont.github.io/)
-# [Mon CV](https://cv-omont-jimmy.vercel.app/)
+## [Ma Gihub-page Portfolio](https://jimmyomont.github.io/)
+## [Mon CV](https://cv-omont-jimmy.vercel.app/)
 ---
 # mes projets :
-# [Pilori (projet de formation) ](https://pilori.vercel.app/)
-# [Planetary Rhytms : HeartSync](https://planetary-rhytms-heart-sync.vercel.app/)
-# [Voice Translate Express ](https://voice-translate-express.vercel.app/)
-# [SereniPulse ](https://serenipulse.vercel.app/)
-# [Mon Labo CodePen](https://codepen.io/jimmy76)
-# [Micro Météo](https://micro-meteo.vercel.app/)
----
+## [Pilori (projet de formation) ](https://pilori.vercel.app/)
+## [Planetary Rhytms : HeartSync](https://planetary-rhytms-heart-sync.vercel.app/)
+## [Voice Translate Express ](https://voice-translate-express.vercel.app/)
+## [SereniPulse ](https://serenipulse.vercel.app/)
+## [Mon Labo CodePen](https://codepen.io/jimmy76)
+## [Micro Météo](https://micro-meteo.vercel.app/)
 ---
 # Mes projets en cours :
-
-# [Planetary Rhytms : HeartSync version Accessibility](https://github.com/jimmyomont/Planetary-Rhytms-HeartSync-Accessibility)
-
+## [Planetary Rhytms : HeartSync version Accessibility](https://github.com/jimmyomont/Planetary-Rhytms-HeartSync-Accessibility)
 ---
 # mes notes : 
-# [Mes notes d'apprentissage ](https://github.com/jimmyomont/notes_de_cours_dev)
-
+## [Mes notes d'apprentissage ](https://github.com/jimmyomont/notes_de_cours_dev)
 ---
 
 # Titre Professionnel de Formation Developpement Web et Accessibilité 👨‍💻Chez **O'CLOCK**⏰
