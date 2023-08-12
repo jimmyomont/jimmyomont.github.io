@@ -4,13 +4,19 @@
 # [Mon CV](https://cv-omont-jimmy.vercel.app/)
 ---
 # mes projets :
-# [Projet de formation "pilori"](https://pilori.vercel.app/)(en cours...)
-# [Cohérence cardiaque "planetZen"](https://coherence-cardiaque-planet.vercel.app/)
-# [Cohérence cardiaque "Kirby" ](https://coherence-cardiaque-nu.vercel.app/#)
+# [Pilori (projet de formation) ](https://pilori.vercel.app/)
+# [Planetary Rhytms : HeartSync](https://planetary-rhytms-heart-sync.vercel.app/)
+# [Voice Translate Express ](https://voice-translate-express.vercel.app/)
+# [SereniPulse ](https://serenipulse.vercel.app/)
 # [Mon Labo CodePen](https://codepen.io/jimmy76)
-# [Ma météo privée](https://micro-meteo-boulbi.vercel.app/)
+# [Micro Météo](https://micro-meteo.vercel.app/)
 ---
+---
+# Mes projets en cours :
 
+# [Planetary Rhytms : HeartSync version Accessibility](https://github.com/jimmyomont/Planetary-Rhytms-HeartSync-Accessibility)
+
+---
 # mes notes : 
 # [Mes notes d'apprentissage ](https://github.com/jimmyomont/notes_de_cours_dev)
 
