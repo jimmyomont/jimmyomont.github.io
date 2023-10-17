@@ -31,8 +31,7 @@
 - Node.js pour la création de serveurs
 - Méthodes agiles pour une approche de développement itérative
 - Modèle MVC (Modèle-Vue-Contrôleur) pour une architecture robuste
-- Conception de base de données (MCD) pour une structure efficace
-- Réseaux de neurones artificiels (MLP) pour des applications intelligentes
+- Conception de base de données (MCD, MLD, MPD) pour une structure efficace
 ---
 ## COMPÉTENCES TECHNIQUES
 
