@@ -19,7 +19,7 @@ function App(){
         </Main>
         </div>
         <Footer />
-        <Analytics />
+        <Analytics />s
         </>
     );
 }
