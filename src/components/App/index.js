@@ -4,7 +4,6 @@ import Main from "../Main";
 import Footer from "../Footer";
 import Labo from "../Labo";
 import './style.scss'
-import { Analytics } from '@vercel/analytics/react';
 
 function App(){
     return(
@@ -19,7 +18,6 @@ function App(){
         </Main>
         </div>
         <Footer />
-        <Analytics />s
         </>
     );
 }
