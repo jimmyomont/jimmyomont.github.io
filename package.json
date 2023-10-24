@@ -12,6 +12,7 @@
         "sharp": "^0.31.3"
     },
     "dependencies": {
+        "@vercel/analytics": "^1.1.1",
         "feather-icons": "^4.29.0",
         "gh-pages": "^5.0.0",
         "process": "^0.11.10",
